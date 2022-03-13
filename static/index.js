@@ -1,4 +1,3 @@
-//confirm para que la pagina se ponga modo oscuro 
 let header = document.querySelector('h1')
 let items = document.getElementsByClassName('item')
 let etiqueta = document.querySelector('label')
@@ -20,7 +19,7 @@ boton.addEventListener('click', () => {
     }
 })
 
-console.log(header.classList.contains('dark-item'));
+//confirm para que la pagina se ponga modo oscuro 
 // if(window.confirm("¿Desea que la página se ponga en modo oscuro?")){
 
 // }
